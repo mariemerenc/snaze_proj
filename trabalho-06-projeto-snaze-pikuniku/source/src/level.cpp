@@ -1,10 +1,10 @@
-#include "level.h"
+#include "../include/level.h"
 
 void Level::push_row(std::vector<char> row){
     m_level_mtx.push_back(row);
 }
 
-void Level::set_directions(int rows, int cols){
+void Level::set_dimensions(int rows, int cols){
     m_rows = rows;
     m_cols = cols;
 }
@@ -156,11 +156,11 @@ void Level::set_element_at(std::pair<size_t, size_t> pos, char element){
     m_level_mtx[pos.first][pos.second] = element;
 }
 
-void Level::set_matrix(vector<vector<char>> mtx){
+void Level::set_matrix(std::vector<std::vector<char>> mtx){
     m_level_mtx = mtx;
 }
 
-vector<vector<char>> Level::get_matrix(){
+std::vector<std::vector<char>> Level::get_matrix(){
     return m_level_mtx;
 }
 

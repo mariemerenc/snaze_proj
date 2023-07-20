@@ -11,7 +11,6 @@
 #include <string>
 #include <memory>
 #include <thread>
-#include "../lib/text_color.h"
 #include "level.h"
 #include "snake.h"
 #include "player.h"

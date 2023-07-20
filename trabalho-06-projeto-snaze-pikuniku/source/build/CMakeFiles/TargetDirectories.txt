@@ -1,0 +1,3 @@
+/home/mariemerenc/Downloads/snaze_proj-main/trabalho-06-projeto-snaze-pikuniku/source/build/CMakeFiles/snaze.dir
+/home/mariemerenc/Downloads/snaze_proj-main/trabalho-06-projeto-snaze-pikuniku/source/build/CMakeFiles/edit_cache.dir
+/home/mariemerenc/Downloads/snaze_proj-main/trabalho-06-projeto-snaze-pikuniku/source/build/CMakeFiles/rebuild_cache.dir

@@ -5,7 +5,6 @@
 #include <sstream>
 #include <random>
 #include <vector>
-#include "text_color.h"
 
 class Level{
     int m_rows;
@@ -17,13 +16,25 @@ class Level{
 
     public:
     void push_row(std::vector<char> row);
-    void set_directions(int rows, int cols);
+    void set_dimensions(int rows, int cols);
     std::pair <size_t, size_t> get_mtx_dimensions();
     void clear();
     void print_level();
     void print_level_old();
     void place_food();
     std::pair<size_t, size_t> get_food_pos();
-    void set_snake_start_pos(std::pair<size_t, size_t> snake_start_pos);
+    void set_snake_start_pos(int row, int col);
+    std::pair<size_t, size_t> get_snake_start_pos();
+    bool has_start_pos();
+    char get_element_at(int row, int col);
+    bool can_move_to(int row, int col);
+    bool is_it_food(int row, int col);
+    bool is_it_wall(std::pair<size_t, size_t> pos);
+    void set_element_at(int row, int col, char element);
+    void set_element_at(std::pair<size_t, size_t> pos, char element);
+    void set_matrix(std::vector<std::vector<char>> mtx);
+    std::vector<std::vector<char>> get_matrix();
+
 };
+#endif 
 

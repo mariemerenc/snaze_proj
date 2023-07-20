@@ -1,4 +1,4 @@
-#include "snake.h"
+#include "../include/snake.h"
 
 void Snake::set_start_pos(std::pair<size_t, size_t> start_pos){
     m_snakes_body.push_back(start_pos);

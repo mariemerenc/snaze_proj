@@ -3,18 +3,17 @@
 
 #include <iostream>
 #include <vector>
-#include <text_color.h>
 
 enum Direction{
-    UP = 0,
-    DOWN,
-    LEFT,
-    RIGHT,
+    NORTH = 0,
+    SOUTH,
+    WEST,
+    EAST,
     NONE
 };
 
 class Snake{
-    Direction m_current_direction = RIGHT;
+    Direction m_current_direction = EAST;
     std::vector<std::pair<size_t, size_t>> m_snakes_body;
     std::pair<size_t, size_t> m_prev_pos;
 

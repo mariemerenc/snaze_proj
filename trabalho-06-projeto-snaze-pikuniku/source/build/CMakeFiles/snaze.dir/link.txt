@@ -1,0 +1,1 @@
+/usr/bin/c++ -fsanitize=address -g -rdynamic CMakeFiles/snaze.dir/level.cpp.o CMakeFiles/snaze.dir/player.cpp.o CMakeFiles/snaze.dir/snake.cpp.o CMakeFiles/snaze.dir/snaze_game.cpp.o CMakeFiles/snaze.dir/snaze.cpp.o -o snaze 

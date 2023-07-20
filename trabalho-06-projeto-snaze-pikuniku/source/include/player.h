@@ -55,6 +55,6 @@ class Player {
 
     void print_path();
 
-;}
+};
 #endif
 
